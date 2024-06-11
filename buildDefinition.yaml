@@ -1,0 +1,5 @@
+projectPath: force-app/main/default
+queries:
+- VlocityDataPackType: OmniScript
+query: Select Id,Name from OmniProcess where Name ='CPQ Submit' and IsActive = True
+
